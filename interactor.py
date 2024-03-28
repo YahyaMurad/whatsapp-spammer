@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com")
 sleep(20)
 
-user = driver.find_element(By.XPATH, "//*[contains(text(), '" + "Ali Malaysia" + "')]")
+user = driver.find_element(By.XPATH, "//*[contains(text(), '" + "NAME OF RECIPIENT" + "')]")
 
 user.click()
 
